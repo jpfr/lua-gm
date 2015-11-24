@@ -4,10 +4,9 @@ local gdl = {}
 
    Generalized Distributive Law
 
-   A factor (in some settings the conditional probability table) maps variables
-   cartesian product of several "variables" (with a finite cardinality) to
-   values. Factors can be called with variable assignments, in the order given
-   in the domain, as if they were functions. Factors contain the following
+   A factor maps from the cartesian product of several "variables" (with finite
+   cardinality) to values. Factors can be called as functions with variable
+   assignments in the order given in the domain. Factors contain the following
    sub-tables:
 
    - domain: an array of tuples {name, {value1, value2}} for each variable
